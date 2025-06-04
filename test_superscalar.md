@@ -4,7 +4,7 @@ I was curious about how long simple operations take.
 
 So, I wrote some trivial benchmarks.
 * We go from 1 to 1000000000.
-* And add/multiply those into a variable. 
+* And add/multiply those into a variables, each benchmark increasing the number of variables.
 
 ## Example output
 
