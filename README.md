@@ -5,7 +5,7 @@ Uses Google Benchmarks to explore things!
 
 ### Setup
 
-I mostly work on my `Dell XPS 15 9510`, which has 16 logical cores and 32Gig memory.
+I mostly work on my `Dell XPS 15 9510` laptop, which has the latest Ubuntu LTS, on 16 logical cores and 32Gig memory.
 
 Here's a snippet from `/proc/cpuinfo`
 
