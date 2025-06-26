@@ -17,3 +17,5 @@ file(GLOB SOURCES *.cpp)
 add_executable(benchmarks ${SOURCES})
 
 target_link_libraries(benchmarks benchmark::benchmark)
+
+set_target_properties(benchmarks PROPERTIES COMPILE_FLAGS "-save-temps -masm=intel -fverbose-asm -Wa,-adhlmn=main.lst")
