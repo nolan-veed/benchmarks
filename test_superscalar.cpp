@@ -60,7 +60,7 @@ static void Mul2(int &prod, int &prod2) {
 static void Mul3(int &prod, int &prod2, int &prod3) {
     prod = 1;
     prod2 = 10;
-    prod2 = 100;
+    prod3 = 100;
     for (int i = 1; i < 1000000001; i++) {
         prod *= i;
         prod2 *= i;
